@@ -35,7 +35,7 @@ export const config = {
       // 扫码关注你的微信测试号后生成的一段字符串，在测试号后台能看到
       id: "oZKdI63inpTO0EKgfv30FV0KnbvE",
       // 你想对他发送的模板消息的模板ID
-      useTemplateId: "vKajwb6F9X8qW8uPSW2hPTzValv2E9ott0Ki5HLL08c",
+      useTemplateId: "eYDrYwlYRMoOVmDA2sKEFjPyt14tsrpXGliSVnlAMaA",
       // 所在省份
       province: "甘肃",
       // 所在城市
@@ -106,10 +106,10 @@ export const config = {
    * 节日时，name填写相应展示的节日，你可以填“被搭讪纪念日”
    */
   FESTIVALS: [
-    {"type": "生日", "name": "美丽可爱的超级大宝贝茜茜", "year": "2003", "date": "05-29"},
+    {"type": "生日", "name": "美丽可爱的茜茜大宝贝", "year": "2003", "date": "05-29"},
     {"type": "节日", "name": "恋爱纪念日", "year": "2020", "date": "11-26"},
     {"type": "生日", "name": "帅气逼人的美男子夏某", "year": "2003", "date": "03-27"},
-    {"type": "节日", "name": "被搭讪纪念日", "year": "2020", "date": "09-01"},
+    //{"type": "节日", "name": "被搭讪纪念日", "year": "2020", "date": "09-01"},
   ],
 
   /**
@@ -117,7 +117,7 @@ export const config = {
    * 如果为3, 则仅展示“将要到达” 的3个重要节日提醒，剩下的将被忽略
    * 如果为0, 则默认展示全部
    */
-  FESTIVALS_LIMIT: 4,
+  FESTIVALS_LIMIT: 3,
 
   /** 日期相关 */
 
@@ -127,9 +127,9 @@ export const config = {
     * */
   CUSTOMIZED_DATE_LIST: [
     // 在一起的日子
-    {"keyword": "love_day", date: "2015-05-01"},
+    {"keyword": "love_day", date: "2020-11-26"},
     // 结婚纪念日
-    {"keyword": "marry_day", date: "2020-01-04"},
+    //{"keyword": "marry_day", date: "2020-01-04"},
     // 退伍日, 不用可以删掉
     {"keyword": "ex_day", date: "2022-08-31"},
     // sakana日
