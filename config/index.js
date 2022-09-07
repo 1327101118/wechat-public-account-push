@@ -37,9 +37,9 @@ export const config = {
       // 你想对他发送的模板消息的模板ID
       useTemplateId: "vKajwb6F9X8qW8uPSW2hPTzValv2E9ott0Ki5HLL08c",
       // 所在省份
-      province: "广东",
+      province: "甘肃",
       // 所在城市
-      city: "肇庆",
+      city: "兰州",
       // 他点击详情后跳转的页面,你可以设置成微博的热榜，也可以设置成其他，网址一定要填对；不填对也没关系，随便你，会打不开而已。
       openUrl: "https://wangxinleo.cn"
     }, 
@@ -109,7 +109,7 @@ export const config = {
     {"type": "生日", "name": "美丽可爱的超级大宝贝茜茜", "year": "2003", "date": "05-29"},
     {"type": "节日", "name": "恋爱纪念日", "year": "2020", "date": "11-26"},
     {"type": "生日", "name": "帅气逼人的美男子夏某", "year": "2003", "date": "03-27"},
-    {"type": "节日", "name": "被搭讪纪念日", "year": "2021", "date": "09-01"},
+    {"type": "节日", "name": "被搭讪纪念日", "year": "2020", "date": "09-01"},
   ],
 
   /**
@@ -117,7 +117,7 @@ export const config = {
    * 如果为3, 则仅展示“将要到达” 的3个重要节日提醒，剩下的将被忽略
    * 如果为0, 则默认展示全部
    */
-  FESTIVALS_LIMIT: 3,
+  FESTIVALS_LIMIT: 4,
 
   /** 日期相关 */
 
