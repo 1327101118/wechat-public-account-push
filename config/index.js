@@ -6,12 +6,12 @@ export const config = {
   // 公众号APP_ID 
   // 建议不要填这里，请使用文档中github secret的方法进行保密配置，保护您的隐私安全。
   // 如果你非要填这里也行。脚本也能运行
-  // APP_ID: "wx93edf8839f53ee51",
+   APP_ID: "wx93edf8839f53ee51",
 
   // 公众号APP_SECRET 
   // 建议不要填这里，请使用文档中github secret的方法进行保密配置，保护您的隐私安全。
   // 如果你非要填这里也行。脚本也能运行
-  // APP_SECRET: "ccf1bc885d542dc538d41f7eef68bfae",
+   APP_SECRET: "ccf1bc885d542dc538d41f7eef68bfae",
 
   /**
    * 接收公众号消息的微信号，如果有多个，需要在[]里用英文逗号间隔，例如
@@ -31,7 +31,7 @@ export const config = {
   USERS: [
     {
       // 想要发送的人的名字
-      name: "老婆0",
+      name: "老婆",
       // 扫码关注你的微信测试号后生成的一段字符串，在测试号后台能看到
       id: "oZKdI63inpTO0EKgfv30FV0KnbvE",
       // 你想对他发送的模板消息的模板ID
